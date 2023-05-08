@@ -1,0 +1,109 @@
+.banner {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.presentation1 {
+  width: 50%;
+  height: 70%;
+}
+
+.presentation2 {
+  height: 50%;
+  width: 50%;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.title-presentation1 {
+  padding-top: 100px;
+  padding-left: 70px;
+  height: 180px;
+}
+
+.media-container {
+  display: flex;
+  padding-left: 70px;
+  margin: 20px 0 40px 0;
+}
+.media-container img {
+  height: 30px;
+  width: 30px;
+}
+
+.media-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: center;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.icones {
+  width: 270px;
+}
+
+.btn:hover {
+  background: #333;
+  color: #f1f1f1;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container h2 {
+  margin-bottom: 10px;
+}
+
+.presentation2 p {
+  line-height: 1, 4;
+  padding: 20px;
+  font-size: 1.4em;
+}
+.presentation2 .profile-picture {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 200px;
+  height: 200px;
+  /* object-fit: cover; */
+  border-radius: 50%;
+  float: left;
+  shape-outside: margin-box;
+  margin: 0 20px 5px 0;
+  box-shadow: #00000063 0px 0px 10px 3px;
+}
+
+@media screen and (max-width: 767px) {
+  .banner {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 1.3em;
+  }
+  .presentation1 {
+    height: 50%;
+  }
+  .presentation2 p {
+    line-height: 1, 4;
+    padding: 20px;
+    font-size: 1em;
+  }
+  .profile-picture {
+    height: 100px !important;
+    width: 100px !important;
+  }
+}

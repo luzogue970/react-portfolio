@@ -1,0 +1,74 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Poppins:wght@100;200;300');
+font-family: 'Poppins', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap");
+
+body {
+  font-family: "poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* h1,
+p {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+*/
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page1 {
+  display: inline-block;
+}
+.codeCouleur {
+  width: 50vh;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  color: black;
+  margin: 10px;
+}
+.couleur {
+  padding: 5px;
+  display: flex;
+  border: 2px solid black;
+  justify-content: space-around;
+}
+.couleur p {
+  width: 75%;
+  font-weight: bold;
+}
+.carreCouleur {
+  height: 30px;
+  width: 30px;
+  border: 2px solid black;
+  margin-left: 10px;
+}
+.c1 {
+  background-color: red;
+}
+.c2 {
+  background-color: green;
+}
+.c3 {
+  background-color: blue;
+}
+.b1:hover {
+  background-color: red;
+}
+.b2:hover {
+  background-color: green;
+}
+.b3:hover {
+  background-color: blue;
+}

@@ -1,0 +1,100 @@
+.tableau {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.titleTtab {
+  margin: 30px;
+  font-size: 3rem;
+}
+.tftable {
+  font-size: 1rem;
+  color: black;
+  width: 70%;
+  border-width: 1px;
+  border-color: black;
+  border-collapse: collapse;
+}
+td,
+th,
+tr {
+  text-align: center;
+}
+.tftable th {
+  font-size: 1rem;
+  background-color: rgb(109, 109, 212);
+  border-width: 2px;
+  padding: 8px;
+  border-style: solid;
+  border-color: black;
+}
+.tftable tr {
+  background-color: white;
+}
+.tftable td {
+  font-size: 1rem;
+  border-width: 2px;
+  padding: 8px;
+  border-style: solid;
+  border-color: black;
+  cursor: pointer;
+}
+.l3 > td {
+  width: 33%;
+}
+
+td:first-child {
+  background-color: rgb(109, 109, 212);
+  font-weight: bold;
+  cursor: default;
+}
+td:not(:first-child):hover {
+  color: chocolate;
+  border-color: chocolate;
+}
+.clues {
+  border: 2px solid black;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.preuves {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  cursor: pointer;
+}
+.preuve {
+  height: 0;
+  width: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: 0.3s scale;
+}
+.preuveAffich {
+  height: 60vh;
+  width: 60vw;
+}
+.tableau a {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.td-7,.td-8,.td-9,.td-10,.td-17,.td-19 {
+  background-color: red;
+}
+.td-1,.td-3,.td-11 {
+  background-color: green;
+}
+.td-14,.td-16 {
+  background-color: blue;
+}
+.zoom-preuve {
+  scale: 1.5;
+}

@@ -1,0 +1,42 @@
+/* pour adapter le code changer defilement>animatio ndelay: taille de container> left de article>left defilement */
+.container.veille {
+  display: flex;
+  position: relative;
+  left: 0;
+  align-items: center;
+  height: 200px;
+  width: 100vh;
+  overflow: hidden;
+}
+
+.article {
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  left: -200px;
+  animation: defilement 12s linear infinite;
+}
+
+.article.A1 {
+  background-color: red;
+  animation-delay: 0s;
+}
+
+.article.A2 {
+  background-color: blue;
+  animation-delay: 4s;
+}
+
+.article.A3 {
+  background-color: green;
+  animation-delay: 8s;
+}
+
+@keyframes defilement {
+  0% {
+    left: -200px;
+  }
+  100% {
+    left: 650px;
+  }
+}
