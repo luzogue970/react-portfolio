@@ -4,9 +4,9 @@
   justify-content: space-between;
   flex-direction: column;
 }
-.titleTtab {
-  margin: 30px;
+.tableau .section-title {
   font-size: 3rem;
+  color: black;
 }
 .tftable {
   font-size: 1rem;
@@ -86,13 +86,22 @@ td:not(:first-child):hover {
   align-items: center;
   justify-content: center;
 }
-.td-7,.td-8,.td-9,.td-10,.td-17,.td-19 {
+.td-7,
+.td-8,
+.td-9,
+.td-10,
+.td-17,
+.td-19 {
   background-color: red;
 }
-.td-1,.td-3,.td-11 {
+.td-1,
+.td-3,
+.td-11 {
   background-color: green;
 }
-.td-14,.td-16 {
+.td-14,
+.td-16,
+.td-22 {
   background-color: blue;
 }
 .zoom-preuve {

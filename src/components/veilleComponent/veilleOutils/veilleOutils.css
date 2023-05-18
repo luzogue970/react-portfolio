@@ -1,0 +1,33 @@
+.section {
+}
+.veille-outils .section-title {
+  padding: 30px;
+  color: white;
+}
+.veille-outils {
+  background-color: black;
+}
+.les-outils {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.outil-box {
+  width: 500px;
+}
+.overlay p {
+  opacity: 0;
+  color: white;
+  transition: 0.3s ease-in-out;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.overlay:hover p {
+  opacity: 1;
+}
+.backgrond-image {
+  border-radius: 15px;
+}

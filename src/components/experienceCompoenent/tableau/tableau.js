@@ -1,17 +1,25 @@
 import React, { Component } from "react";
 import "./tableau.css";
-import parcInfo from "../../image/./preuve/parcInfo.PNG";
-import referencementTableur from "../../image/./preuve/referencementTableur.PNG";
-import linkdin from "../../image/./preuve/linkdin.PNG";
-import linkdinMessage from "../../image/./preuve/linkdinMessage.PNG";
-import glpi from "../../image/./preuve/GLPI.PNG";
-import glpiTicket from "../../image/./preuve/glpiTicket.png";
-import trelloProjetEquipement from "../../image/preuve/trelloProjetEquipement.PNG";
-import tuleapGestionDeProjet from "../../image/preuve/tuleapGestionDeProjet.PNG";
-import AncienSiteUni from "../../image/preuve/AncienSiteUni.PNG";
-import donneesErgue from "../../image/preuve/donneesErgue.PNG";
-import mentionLegales from "../../image/preuve/mentionLegales.png";
-import Hebergement from "../../image/preuve/Hebergement.PNG";
+import parcInfo from "../../../image/./preuve/parcInfo.PNG";
+import referencementTableur from "../../../image/./preuve/referencementTableur.PNG";
+import linkdin from "../../../image/./preuve/linkdin.PNG";
+import linkdinMessage from "../../../image/./preuve/linkdinMessage.PNG";
+import glpi from "../../../image/./preuve/GLPI.PNG";
+import glpiTicket from "../../../image/./preuve/glpiTicket.png";
+import trelloProjetEquipement from "../../../image/preuve/trelloProjetEquipement.PNG";
+import tuleapGestionDeProjet from "../../../image/preuve/tuleapGestionDeProjet.PNG";
+import AncienSiteUni from "../../../image/preuve/AncienSiteUni.PNG";
+import donneesErgue from "../../../image/preuve/donneesErgue.PNG";
+import mentionLegales from "../../../image/preuve/mentionLegales.png";
+import Hebergement from "../../../image/preuve/Hebergement.PNG";
+import dokuwikiScreen from "../../../image/preuve/dokuwikiScreen.PNG";
+import exemplePdfDw2pdf from "../../../image/preuve/exemplePdfDw2pdf.PNG";
+import portfolioReact from "../../../image/preuve/portfolioReact.PNG";
+import biblioSite from "../../../image/preuve/biblioSite.PNG";
+import feedly from "../../../image/maVeille/feedly.webp";
+import habilitation from "../../../image/preuve/habilitation.PNG";
+import pageVeille from "../../../image/preuve/pageVeille.PNG";
+import witty from "../../../image/preuve/witty.PNG";
 
 const clue1 = {
   0: parcInfo,
@@ -20,18 +28,32 @@ const clue1 = {
   3: "Inventaire des vidéo projecteur de La DMSI",
 };
 const clue3 = {
-  0: undefined,
+  0: habilitation,
   1: "outil permettant de donner des permissions aux utilisateurs",
 };
 const clue7 = {
-  0: undefined,
-  1: "projets react/angular/mobile => screen porfolio ou démonstration portfolio",
+  0: portfolioReact,
+  1: "Porfolio react",
+  2: biblioSite,
+  3: "Site Angular",
 };
-const clue8 = { 0: undefined, 1: "pearl trees + page veille" };
-const clue9 = { 0: linkdin, 1: "linkdin + portfolio" };
+const clue8 = {
+  0: feedly,
+  1: "Feedly ",
+  2: pageVeille,
+  3: "page veille",
+};
+const clue9 = {
+  0: linkdin,
+  1: "linkdin ",
+  2: portfolioReact,
+  3: "portfolio",
+};
 const clue10 = {
   0: linkdinMessage,
   1: "Messages Linkdin de recherhce d'alternance",
+  2: witty,
+  3: "alternance chez witty",
 };
 const clue11 = {
   0: glpi,
@@ -60,7 +82,12 @@ const clue19 = {
   0: tuleapGestionDeProjet,
   1: "Gestion de Projet tuleap",
 };
-
+const clue22 = {
+  0: dokuwikiScreen,
+  1: "Outil dokuWiki",
+  2: exemplePdfDw2pdf,
+  3: "PDF extrait de dokuwiki",
+};
 const allclue = {
   1: clue1,
   2: undefined,
@@ -81,6 +108,9 @@ const allclue = {
   17: clue17,
   18: undefined,
   19: clue19,
+  20: undefined,
+  21: undefined,
+  22: clue22,
 };
 
 export default class Tableau extends Component {
@@ -141,7 +171,7 @@ export default class Tableau extends Component {
   render() {
     return (
       <div className="tableau">
-        <h1 className="titleTab">Selectionnez une compétence</h1>
+        <h1 className="section-title">Selectionnez une compétence</h1>
         <img src="./parcInfo.PNG" alt="" />
         <a name="tftable" href="#preuve">
           <table
@@ -233,6 +263,21 @@ export default class Tableau extends Component {
                 <td className="td-19" colSpan="2">
                   Évaluer les indicateurs de suivi d’un projet et analyser les
                   écarts
+                </td>
+              </tr>
+              <tr className="l3" id="preuve">
+                <td>
+                  Mettre à disposition des utilisateurs un service informatique
+                </td>
+                <td className="td-20" colSpan="2">
+                  Réaliser les tests d’intégration et d’acceptation d’un service
+                </td>
+                <td className="td-21" colSpan="2">
+                  Déployer un service
+                </td>
+                <td className="td-22" colSpan="2">
+                  Accompagner les utilisateurs dans la mise en place d’un
+                  service
                 </td>
               </tr>
             </tbody>

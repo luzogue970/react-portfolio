@@ -1,9 +1,9 @@
 import React, { Component } from "react"; 
 import "./Stages.css";
-import sb_stage from "../../image/sb_stage.png";
-import cn_stage from "../../image/cn_stage.png";
-import rapportDeStage1 from "../../pdf/rapportDeStage1.pdf";
-import rapportDeStage2 from "../../pdf/rapportDeStage2.pdf";
+import sb_stage from "../../../image/sb_stage.png";
+import cn_stage from "../../../image/cn_stage.png";
+import rapportDeStage1 from "../../../pdf/rapportDeStage1.pdf";
+import rapportDeStage2 from "../../../pdf/rapportDeStage2.pdf";
 export default class stages extends Component {
   render() {
     return (

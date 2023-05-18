@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Projets.css";
-import devWeb from "../../image/dev_web.jpg";
-import devMobile from "../../image/dev_mobile.jpg";
+import devWeb from "../../../image/dev_web.jpg";
+import devMobile from "../../../image/dev_mobile.jpg";
 
 export default class Projets extends Component {
   render() {

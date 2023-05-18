@@ -21,9 +21,9 @@ function Nav() {
           </Link>
         </li>
         <li className="navbar__item slideInDown-2">
-          <a href="#projets" className="navbar__link">
+          <Link to={"/mes-projets"} className="navbar__link">
             Projets
-          </a>
+          </Link>
         </li>
         <li className="navbar__item slideInDown-3">
           <Link to={"/mon-experience"} className="navbar__link">

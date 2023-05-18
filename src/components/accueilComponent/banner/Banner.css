@@ -51,12 +51,15 @@ h1 {
   color: #f1f1f1;
 }
 .container {
-  max-width: 600px;
   margin: 0 auto;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.3);
   background-color: #fff;
+}
+
+.profile-container {
+  max-width: 600px;
 }
 
 .container::after {

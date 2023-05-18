@@ -4,16 +4,16 @@
   position: relative;
   left: 0;
   align-items: center;
-  height: 200px;
-  width: 100vh;
+  height: 400px;
+  width: 80vw;
   overflow: hidden;
 }
 
 .article {
-  width: 200px;
-  height: 150px;
+  width: 400px;
+  height: 300px;
   position: absolute;
-  left: -200px;
+  left: -400px;
   animation: defilement 12s linear infinite;
 }
 
@@ -28,15 +28,30 @@
 }
 
 .article.A3 {
-  background-color: green;
+  background-color: grey;
   animation-delay: 8s;
+}
+
+.article.A4 {
+  background-color: yellow;
+  animation-delay: 12s;
+}
+
+.article.A5 {
+  background-color: brown;
+  animation-delay: 16s;
+}
+
+.article.A6 {
+  background-color: purple;
+  animation-delay: 20s;
 }
 
 @keyframes defilement {
   0% {
-    left: -200px;
+    left: -450px;
   }
   100% {
-    left: 650px;
+    left: 1250px;
   }
 }

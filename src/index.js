@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
+import MesProjets from "./pages/mesProjets/mesProjets";
 import MonExperience from "./pages/monExeprience/monExperience";
 import Veille from "./pages/veille/veille";
 import reportWebVitals from "./reportWebVitals";
@@ -11,6 +12,10 @@ const router = createBrowserRouter([
   {
     path: "react-portfolio",
     element: <App />,
+  },
+  {
+    path: "mes-projets",
+    element: <MesProjets />,
   },
   {
     path: "mon-experience",

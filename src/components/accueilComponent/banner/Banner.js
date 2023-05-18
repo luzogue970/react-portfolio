@@ -1,7 +1,7 @@
 import React from "react";
 import "./Banner.css";
 import Typewriter from "typewriter-effect";
-import mathieu from "../../image/mathieu.PNG";
+import mathieu from "../../../image/mathieu.PNG";
 
 function Banner() {
   return (
@@ -96,7 +96,7 @@ function Banner() {
       </div>
 
       <div className="presentation2">
-        <div className="container">
+        <div className="container profile-container">
           <div
             className="profile-picture"
             style={{ backgroundImage: `url(${mathieu})` }}

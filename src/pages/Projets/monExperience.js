@@ -1,5 +1,5 @@
 import "./monExperience.css";
-import Nav from "../../components/general/nav/Nav";
+import Nav from "../../components/nav/Nav";
 import Tableau from "../../components/experienceCompoenent/tableau/tableau";
 import exp1 from "../../image/experienceIcon1.png";
 import exp2 from "../../image/experienceIcon2.png";
