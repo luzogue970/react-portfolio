@@ -10,7 +10,7 @@ import art2 from "../../image/articles/art2.jpg";
 import art3 from "../../image/articles/art3.webp";
 import art4 from "../../image/articles/art4.jpg";
 import art5 from "../../image/articles/art5.jpg";
-import art6 from "../../image/articles/art6.PNG";
+import art6 from "../../image/articles/art6.png";
 
 
 function Veille() {
