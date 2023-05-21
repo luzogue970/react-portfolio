@@ -6,7 +6,8 @@
   position: relative;
 }
 
-.section-title , .projets h1 {
+.section-title,
+.projets h1 {
   color: white;
 }
 .projets-boxes {
@@ -53,5 +54,10 @@
 }
 
 @media screen and (max-width: 767px) {
-
+  .projets-boxes {
+    flex-wrap: nowrap;
+  }
+  .projet-title {
+    font-size: 1.5rem !important;
+  }
 }

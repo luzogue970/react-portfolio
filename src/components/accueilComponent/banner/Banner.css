@@ -15,8 +15,6 @@
 }
 
 .presentation2 {
-  height: 50%;
-  width: 50%;
 }
 
 h1 {
@@ -57,12 +55,12 @@ h1 {
   box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.3);
   background-color: #fff;
 }
-.le2 {
+.nav-buttons {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.le2 a {
+.nav-buttons a {
   text-align: center;
 }
 .btn {
@@ -124,6 +122,7 @@ h1 {
 }
 
 .profile-container {
+  width: 90%;
   max-width: 600px;
 }
 
@@ -144,10 +143,8 @@ h1 {
 .presentation2 .profile-picture {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
   width: 200px;
   height: 200px;
-  /* object-fit: cover; */
   border-radius: 50%;
   float: left;
   shape-outside: margin-box;
@@ -155,7 +152,7 @@ h1 {
   box-shadow: #00000063 0px 0px 10px 3px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 720px) {
   .banner {
     flex-direction: column;
   }
@@ -173,5 +170,24 @@ h1 {
   .profile-picture {
     height: 100px !important;
     width: 100px !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* .profile-picture {
+    height: 50px !important;
+    width: 50px !important;
+  }*/
+  .nav-buttons {
+    flex-direction: row;
+    width: 100vh;
+    justify-content: center;
+  }
+  .btn {
+    height: 30px;
+    width: 210px;
+    font-size: 0.9rem;
+  }
+  .profile-container {
+    width: 450px;
   }
 }

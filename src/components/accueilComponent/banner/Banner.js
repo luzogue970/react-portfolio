@@ -102,7 +102,7 @@ function Banner() {
             </a>
           </div>
         </div>
-        <div className="le2">
+        <div className="nav-buttons">
           <a
             class="btn btn-submit"
             href={cv2023}

@@ -43,7 +43,7 @@ html {
   margin: 30px;
 }
 .page-title {
-  font-size: 5em;
+  font-size: 5rem;
   text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
   letter-spacing: 8px;
   text-transform: uppercase;
@@ -67,6 +67,18 @@ html {
   position: absolute;
   background-color: aqua;
   top: -63px;
+}
+@media screen and (max-width: 767px) {
+  .page-title {
+    font-size: 2.5em;
+  }
+  .section-header img {
+    height: 50px;
+    width: 50px;
+  }
+  .section-title {
+    font-size: 2em;
+  }
 }
 @media screen and (max-width: 767px) {
   .section-title {

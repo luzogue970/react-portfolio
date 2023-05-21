@@ -134,4 +134,14 @@
   .show-nav .slideInDown-4 {
     transition: all 1.3s ease-out;
   }
+  .show-nav .slideInDown-5 {
+    transition: all 1.4s ease-out;
+  }
 }
+@media screen and (max-width: 650px) { 
+  .navbar__links {
+    padding-left: 150px;
+  }
+}
+
+
