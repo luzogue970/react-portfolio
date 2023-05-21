@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Banner.css";
 import Typewriter from "typewriter-effect";
 import mathieu from "../../../image/mathieu.PNG";
-
+import cv2023 from "../../../pdf/cv2023.pdf";
 function Banner() {
   return (
     <div className="banner section" id="haut">
@@ -37,7 +38,7 @@ function Banner() {
                         languages[j] +
                         `</strong>`
                     )
-                    .pauseFor(600)
+                    .pauseFor(100)
                     .deleteChars(languages[j].length);
                 }
               }
@@ -48,7 +49,11 @@ function Banner() {
 
         <div className="media-container">
           <div className="media-btn">
-            <a href="https://www.linkedin.com/in/mathieu-le-provost-392291227/">
+            <a
+              href="https://www.linkedin.com/in/mathieu-le-provost-392291227/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
                 alt="aaaa"
@@ -56,7 +61,11 @@ function Banner() {
             </a>
           </div>
           <div className="media-btn">
-            <a href="https://www.linkedin.com/in/mathieu-le-provost-392291227/">
+            <a
+              href="https://github.com/luzogue970"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png"
                 alt="icones"
@@ -93,6 +102,25 @@ function Banner() {
             </a>
           </div>
         </div>
+        <div className="le2">
+          <a
+            class="btn btn-submit"
+            href={cv2023}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Voir mon cv
+          </a>
+          <Link to={"/mes-projets"} className="btn btn-info">
+            Mes projets
+          </Link>
+          <Link to={"/ma-veille"} className="btn btn-warning">
+            Ma veille
+          </Link>
+          <Link to={"/mon-experience"} className="btn btn-delete">
+            Mon experience
+          </Link>
+        </div>
       </div>
 
       <div className="presentation2">
@@ -104,8 +132,8 @@ function Banner() {
           <h1>Mes objectifs</h1>
           <p>
             Actullement Etudiant au lycée chaptal de Quimper je souhaite
-            approfondir mes connaissance en développement <strong>web</strong>  en vu de ma futur
-            alternance
+            approfondir mes connaissance en développement <strong>web</strong>{" "}
+            en vu de ma futur alternance
           </p>
         </div>
       </div>

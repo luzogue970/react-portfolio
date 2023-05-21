@@ -8,7 +8,7 @@ export default class stages extends Component {
   render() {
     return (
       <div className="stages section" id="experiences">
-        <h1 className="section-title">Mes Experience</h1>
+        <h1 className="section-title">Mes stages</h1>
         <div className="stages-boxes">
           <div className="stage-box">
             <div className="text">

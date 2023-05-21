@@ -1,0 +1,80 @@
+/* pour adapter le code changer defilement>animatio ndelay: taille de container> left de article>left defilement */
+.container.veille {
+  display: flex;
+  position: relative;
+  left: 0;
+  align-items: center;
+  height: 400px;
+  width: 80vw;
+  overflow: hidden;
+}
+
+.article {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  left: -400px;
+  animation: defilement 12s linear infinite;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.background-article {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 10px;
+}
+.article-overlay {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.article-text {
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+.article h1 {
+  color: inherit;
+  font-size: 1.5rem;
+}
+.article .article-date {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px;
+}
+.article .article-desc {
+  font-size: 1.2rem;
+  margin: 30px 10px 0 10px;
+}
+.show-article {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.show-article h1 {
+  color: white;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  opacity: 0;
+  scale: 0;
+  transition: 0.5s ease-in-out;
+}
+.article-overlay:hover .article-text {
+  opacity: 0;
+}
+.article-overlay:hover .show-article h1 {
+  opacity: 0.8;
+  scale: 1;
+}

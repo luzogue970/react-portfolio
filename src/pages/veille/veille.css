@@ -1,11 +1,49 @@
 .veille {
   margin-top: 100px;
 }
-.veille-main {
-}
 .veille-main h1 {
   color: black;
 }
 nav {
   top: 0;
+}
+
+.article.A1 {
+  /* left: 400px; */
+  background-color: red;
+  animation-delay: 0s;
+}
+
+.article.A2 {
+  background-color: blue;
+  animation-delay: 4s;
+}
+
+.article.A3 {
+  background-color: grey;
+  animation-delay: 8s;
+}
+
+.article.A4 {
+  background-color: yellow;
+  animation-delay: 12s;
+}
+
+.article.A5 {
+  background-color: brown;
+  animation-delay: 16s;
+}
+
+.article.A6 {
+  background-color: purple;
+  animation-delay: 20s;
+}
+
+@keyframes defilement {
+  0% {
+    left: -450px;
+  }
+  100% {
+    left: 1250px;
+  }
 }

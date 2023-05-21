@@ -5,6 +5,7 @@ import App from "./App";
 import MesProjets from "./pages/mesProjets/mesProjets";
 import MonExperience from "./pages/monExeprience/monExperience";
 import Veille from "./pages/veille/veille";
+import ContactPage from "./pages/contactPage/contactPage";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "ma-veille",
     element: <Veille />,
+  },
+  {
+    path: "me-contacter",
+    element: <ContactPage />,
   },
 ]);
 

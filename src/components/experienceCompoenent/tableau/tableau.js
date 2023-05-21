@@ -173,13 +173,14 @@ export default class Tableau extends Component {
       <div className="tableau">
         <h1 className="section-title">Selectionnez une compétence</h1>
         <img src="./parcInfo.PNG" alt="" />
-        <a name="tftable" href="#preuve">
-          <table
-            className="tftable"
-            border="1"
-            ref={this.tableRef}
-            onClick={this.selectpreuve}
-          >
+
+        <table
+          className="tftable"
+          border="1"
+          ref={this.tableRef}
+          onClick={this.selectpreuve}
+        >
+          <a name="tftable" href="#preuve">
             <tbody>
               <tr className="table-title">
                 <th colSpan="7">Tableau des compétences</th>
@@ -281,8 +282,8 @@ export default class Tableau extends Component {
                 </td>
               </tr>
             </tbody>
-          </table>
-        </a>
+          </a>
+        </table>
 
         <div className="clues">
           <div className="preuves">

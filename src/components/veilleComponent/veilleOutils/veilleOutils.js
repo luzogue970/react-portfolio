@@ -8,7 +8,7 @@ export default class veilleOutils extends Component {
   render() {
     return (
       <div className="veille-outils section">
-        <h1 className="section-title">Les outils utlisé</h1>
+        <h1 className="section-title">Les outils utlisés</h1>
         <div className="les-outils">
           <a
             href="https://www.youtube.com/@Underscore_"

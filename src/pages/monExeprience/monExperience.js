@@ -1,5 +1,6 @@
 import "./monExperience.css";
 import Nav from "../../components/general/nav/Nav";
+import Stages from "../../components/experienceCompoenent/Stages/Stages";
 import Tableau from "../../components/experienceCompoenent/tableau/tableau";
 import exp1 from "../../image/experienceIcon1.png";
 import exp2 from "../../image/experienceIcon2.png";
@@ -15,23 +16,28 @@ function monExperience() {
         <h1 className="page-title">Mon Experience</h1>
         <img src={exp2} alt="" />
       </div>
-      <div className="colors">
-        <div className="codeCouleur">
-          <div className="couleur b1">
-            <p>validé dans la cadre des cours</p>
-            <div className="carreCouleur c1"></div>
-          </div>
-          <div className="couleur b2">
-            <p>validé dans le cadre du premier stage</p>
-            <div className="carreCouleur c2"></div>
-          </div>
-          <div className="couleur b3">
-            <p>validé dans le cadre du deuxième stage</p>
-            <div className="carreCouleur c3"></div>
-          </div>
-        </div>
-        <Tableau />
+      <Stages />
+      <div className="legende">
+        <table className="color-tableau">
+          <tr className="color-tableau-tr1">
+            <td>Réalisé dans le cadre des cours</td>
+            <td className="carre-couleur c1"></td>
+          </tr>
+          <tr className="color-tableau-tr2">
+            <td>Réalisé dans le cadre d'un apprentissage personnel</td>
+            <td className="carre-couleur c4"></td>
+          </tr>
+          <tr className="color-tableau-tr3">
+            <td>Réalisé dans le cadre de mon premier stage</td>
+            <td className="carre-couleur c2"></td>
+          </tr>
+          <tr className="color-tableau-tr4">
+            <td>Réalisé dans le cadre de mon second stage</td>
+            <td className="carre-couleur c3"></td>
+          </tr>
+        </table>
       </div>
+      <Tableau />
     </div>
   );
 }

@@ -3,6 +3,7 @@ import React from "react";
 import "./Nav.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import mathieu from "../../../image/mathieu.PNG";
 
 function Nav() {
   const [showLinks, setshowLinks] = useState(false);
@@ -13,7 +14,9 @@ function Nav() {
   return (
     // ? teste si showLinks est a true
     <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} `}>
-      <div className="navbar__logo">logo</div>
+      <div className="navbar__logo">
+        <img src={mathieu} alt="" />
+      </div>
       <ul className="navbar__links">
         <li className="navbar__item slideInDown-1">
           <Link to={"/react-portfolio"} className="navbar__link">
@@ -36,9 +39,9 @@ function Nav() {
           </Link>
         </li>
         <li className="navbar__item slideInDown-5">
-          <a href="#footer" className="navbar__link">
-            Contact
-          </a>
+          <Link to={"/me-contacter"} className="navbar__link">
+            contact
+          </Link>
         </li>
       </ul>
       <button className="navbar__burger" onClick={handleShowLinks}>

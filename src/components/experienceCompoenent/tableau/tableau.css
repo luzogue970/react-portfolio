@@ -20,6 +20,7 @@ td,
 th,
 tr {
   text-align: center;
+  transition: 0.3s ease-in-out;
 }
 .tftable th {
   font-size: 1rem;
@@ -38,7 +39,6 @@ tr {
   padding: 8px;
   border-style: solid;
   border-color: black;
-  cursor: pointer;
 }
 .l3 > td {
   width: 33%;
@@ -50,8 +50,6 @@ td:first-child {
   cursor: default;
 }
 td:not(:first-child):hover {
-  color: chocolate;
-  border-color: chocolate;
 }
 .clues {
   border: 2px solid black;
@@ -86,13 +84,15 @@ td:not(:first-child):hover {
   align-items: center;
   justify-content: center;
 }
-.td-7,
-.td-8,
-.td-9,
-.td-10,
 .td-17,
 .td-19 {
   background-color: red;
+}
+.td-7,
+.td-8,
+.td-9,
+.td-10 {
+  background-color: yellow;
 }
 .td-1,
 .td-3,
@@ -106,4 +106,19 @@ td:not(:first-child):hover {
 }
 .zoom-preuve {
   scale: 1.5;
+}
+.td-17:hover,
+.td-19:hover,
+.td-7:hover,
+.td-8:hover,
+.td-9:hover,
+.td-10:hover,
+.td-1:hover,
+.td-3:hover,
+.td-11:hover,
+.td-14:hover,
+.td-16:hover,
+.td-22:hover {
+  scale: 1.1;
+  cursor: pointer;
 }

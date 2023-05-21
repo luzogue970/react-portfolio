@@ -4,7 +4,7 @@ import Tableau from "../../components/experienceCompoenent/tableau/tableau";
 import exp1 from "../../image/experienceIcon1.png";
 import exp2 from "../../image/experienceIcon2.png";
 
-function monExperience() {
+function Projets() {
   return (
     <div className="monExperience">
       <nav>
@@ -36,4 +36,4 @@ function monExperience() {
   );
 }
 
-export default monExperience;
+export default Projets;

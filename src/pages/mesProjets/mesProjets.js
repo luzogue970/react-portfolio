@@ -1,6 +1,6 @@
 import "./mesProjets.css";
 import Nav from "../../components/general/nav/Nav";
-import Projets from "../../components/accueilComponent/projets/Projets";
+import Projets from "../../components/projetsComponent/projets/Projets";
 import web from "../../image/mesProjetIcon1.png";
 import mobile from "../../image/mesProjetIcon2.png";
 
