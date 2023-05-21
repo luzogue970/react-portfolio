@@ -49,8 +49,6 @@ td:first-child {
   font-weight: bold;
   cursor: default;
 }
-td:not(:first-child):hover {
-}
 .clues {
   border: 2px solid black;
   margin-top: 50px;
