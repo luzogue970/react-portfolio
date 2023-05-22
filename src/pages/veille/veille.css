@@ -44,7 +44,7 @@ nav {
     left: -450px;
   }
   100% {
-    left: 1250px;
+    left: 1650px;
   }
 }
 @media screen and (max-width: 767px) {

@@ -131,9 +131,9 @@ function Banner() {
           ></div>
           <h1>Mes objectifs</h1>
           <p>
-            Actullement Etudiant au lycée chaptal de Quimper je souhaite
-            approfondir mes connaissance en développement <strong>web</strong>{" "}
-            en vu de ma futur alternance
+            Actuellement Étudiant au Lycée Chaptal de Quimper je souhaite
+            approfondir mes connaissances en développement <strong>web</strong>{" "}
+            en vue de ma future alternance
           </p>
         </div>
       </div>

@@ -12,7 +12,6 @@ import art4 from "../../image/articles/art4.jpg";
 import art5 from "../../image/articles/art5.jpg";
 import art6 from "../../image/articles/art6.png";
 
-
 function Veille() {
   const [articles] = useState([
     {
@@ -43,7 +42,7 @@ function Veille() {
     {
       class: "A4",
       title: `En quoi consiste le projet de loi pour "sécuriser" internet ?`,
-      date: "7 juin 2023",
+      date: "7 Mai 2023",
       desc: `Filtre anti-arnaques, luttes contre le cyberharcèlement ou l'accès des mineurs au porno : voici les principales mesures prévues par le gouvernement pour "sécuriser et réguler" internet.`,
       url: "https://www.capital.fr/economie-politique/en-quoi-consiste-le-projet-de-loi-pour-securiser-internet-1467802",
       image: art4,
@@ -52,7 +51,7 @@ function Veille() {
       class: "A5",
       title:
         "CIEM, Gestion des identités et accès cloud : comment réduire les risques de sécurité ?",
-      date: "4 juin 2023",
+      date: "4 Mai 2023",
       desc: "En enjeu majeur, le cloud soulève aussi des risques particuliers et différents pour la cybersécurité des entreprises qui l’adoptent. La gestion des identités et des accès est sans conteste l’un des aspects les plus critiques de la sécurité dans le cloud.",
       url: "https://www.informatiquenews.fr/ciem-gestion-des-identites-et-acces-cloud-comment-reduire-les-risques-de-securite-xavier-duros-check-point-93499",
       image: art5,
