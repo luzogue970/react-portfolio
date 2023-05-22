@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.3e4c3787.css",
-    "main.js": "/react-portfolio/static/js/main.ad6f5bb6.js",
+    "main.js": "/react-portfolio/static/js/main.2791a2d8.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/AncienSiteUni.PNG": "/react-portfolio/static/media/AncienSiteUni.76cf5fe4525b2a30953f.PNG",
     "static/media/rapportDeStage1.pdf": "/react-portfolio/static/media/rapportDeStage1.1ab79cd0288dc461175c.pdf",
     "static/media/art6.png": "/react-portfolio/static/media/art6.2c44c4347699f3049fac.png",
     "static/media/trelloProjetEquipement.PNG": "/react-portfolio/static/media/trelloProjetEquipement.feb93e52b32a36e7befc.PNG",
     "static/media/rapportDeStage2.pdf": "/react-portfolio/static/media/rapportDeStage2.f78afc4a860f7df89123.pdf",
-    "static/media/veilleLIONELGUILLET.PNG": "/react-portfolio/static/media/veilleLIONELGUILLET.2e2df417fbd4d2fab1cd.PNG",
     "static/media/pageVeille.PNG": "/react-portfolio/static/media/pageVeille.47bc4498bb73e3885223.PNG",
     "static/media/cv2023.pdf": "/react-portfolio/static/media/cv2023.269c3bcc15ffde9a621c.pdf",
     "static/media/mathieu.PNG": "/react-portfolio/static/media/mathieu.4a76690b99b8c3edb627.PNG",
@@ -35,6 +34,7 @@
     "static/media/glpiTicket.png": "/react-portfolio/static/media/glpiTicket.2dbd908b90bd4b1e8226.png",
     "static/media/mentionLegales.png": "/react-portfolio/static/media/mentionLegales.1c344d5fb6f1d7891afe.png",
     "static/media/art4.jpg": "/react-portfolio/static/media/art4.4a9220157ab9e6bdb584.jpg",
+    "static/media/Lusine-digitale.png": "/react-portfolio/static/media/Lusine-digitale.e6d9cd201e6be9d49451.png",
     "static/media/cyber1.png": "/react-portfolio/static/media/cyber1.cbc73043919d3348704b.png",
     "static/media/experienceIcon2.png": "/react-portfolio/static/media/experienceIcon2.0f20c2d618c54ad6e05b.png",
     "static/media/sb_stage.png": "/react-portfolio/static/media/sb_stage.cfe35294abf2870d2f4f.png",
@@ -45,11 +45,11 @@
     "static/media/cn_stage.png": "/react-portfolio/static/media/cn_stage.7f8f38efc6529c267243.png",
     "index.html": "/react-portfolio/index.html",
     "main.3e4c3787.css.map": "/react-portfolio/static/css/main.3e4c3787.css.map",
-    "main.ad6f5bb6.js.map": "/react-portfolio/static/js/main.ad6f5bb6.js.map",
+    "main.2791a2d8.js.map": "/react-portfolio/static/js/main.2791a2d8.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e4c3787.css",
-    "static/js/main.ad6f5bb6.js"
+    "static/js/main.2791a2d8.js"
   ]
 }
