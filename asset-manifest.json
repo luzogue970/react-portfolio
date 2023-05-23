@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.3e4c3787.css",
-    "main.js": "/react-portfolio/static/js/main.2791a2d8.js",
+    "main.css": "/react-portfolio/static/css/main.eedf28ae.css",
+    "main.js": "/react-portfolio/static/js/main.73d3653c.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/AncienSiteUni.PNG": "/react-portfolio/static/media/AncienSiteUni.76cf5fe4525b2a30953f.PNG",
     "static/media/rapportDeStage1.pdf": "/react-portfolio/static/media/rapportDeStage1.1ab79cd0288dc461175c.pdf",
@@ -15,12 +15,14 @@
     "static/media/portfolioReact.PNG": "/react-portfolio/static/media/portfolioReact.480655e34004d8131c65.PNG",
     "static/media/linkdin.PNG": "/react-portfolio/static/media/linkdin.b6c5e0a036ae24e090e2.PNG",
     "static/media/dev_web.jpg": "/react-portfolio/static/media/dev_web.cce75cef2dcc8f110893.jpg",
+    "static/media/lafleur.png": "/react-portfolio/static/media/lafleur.58beb9a3d08e1ed56fd6.png",
     "static/media/habilitation.PNG": "/react-portfolio/static/media/habilitation.69f732436493f03f55cf.PNG",
     "static/media/witty.PNG": "/react-portfolio/static/media/witty.6bb111e89541e7fa00b0.PNG",
     "static/media/donneesErgue.PNG": "/react-portfolio/static/media/donneesErgue.f649a155ffe7746e93ff.PNG",
     "static/media/dokuwikiScreen.PNG": "/react-portfolio/static/media/dokuwikiScreen.65a1b3ce656f0312584a.PNG",
     "static/media/GLPI.PNG": "/react-portfolio/static/media/GLPI.fcb00e261d8cb83c844b.PNG",
     "static/media/tuleapGestionDeProjet.PNG": "/react-portfolio/static/media/tuleapGestionDeProjet.3410453cf8d2c4c53551.PNG",
+    "static/media/applifrais.png": "/react-portfolio/static/media/applifrais.2035e53f8bb293a3e9b3.png",
     "static/media/parcInfo.PNG": "/react-portfolio/static/media/parcInfo.ee6b1a83f248bb3b7a2e.PNG",
     "static/media/art5.jpg": "/react-portfolio/static/media/art5.8cee35435fec86f5993d.jpg",
     "static/media/linkdinMessage.PNG": "/react-portfolio/static/media/linkdinMessage.365f93f78caeea8f2a45.PNG",
@@ -44,12 +46,12 @@
     "static/media/certFrance.jpg": "/react-portfolio/static/media/certFrance.af911393dbc063994dbc.jpg",
     "static/media/cn_stage.png": "/react-portfolio/static/media/cn_stage.7f8f38efc6529c267243.png",
     "index.html": "/react-portfolio/index.html",
-    "main.3e4c3787.css.map": "/react-portfolio/static/css/main.3e4c3787.css.map",
-    "main.2791a2d8.js.map": "/react-portfolio/static/js/main.2791a2d8.js.map",
+    "main.eedf28ae.css.map": "/react-portfolio/static/css/main.eedf28ae.css.map",
+    "main.73d3653c.js.map": "/react-portfolio/static/js/main.73d3653c.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e4c3787.css",
-    "static/js/main.2791a2d8.js"
+    "static/css/main.eedf28ae.css",
+    "static/js/main.73d3653c.js"
   ]
 }
